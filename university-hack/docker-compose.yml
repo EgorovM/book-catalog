@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: hu2020
+    restart: always
+    ports:
+      - 40088:8000
+    volumes:
+      - /var/run/hu2020/static:/hackuniversity-2020/static

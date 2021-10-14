@@ -1,0 +1,55 @@
+.grid {
+  display: flex;
+  width: 1280px;
+  margin: 0 auto;
+  padding: 0 4rem 8rem;
+
+  &.blurred {
+    transition: .2s;
+    filter: blur(5px);
+  }
+
+  .col {
+    width: 25%;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .grid {
+    width: 960px;
+
+    .col {
+      width: 33.333%;
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .grid {
+    width: 640px;
+
+    .col {
+      width: 50%;
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .grid {
+    width: 480px;
+
+    .col {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .grid {
+    padding: 0 2rem 8rem;
+    width: 100%;
+  }
+}

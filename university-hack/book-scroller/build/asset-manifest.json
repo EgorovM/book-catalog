@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.258bd750.chunk.css",
+    "main.js": "/static/js/main.476145cb.chunk.js",
+    "main.js.map": "/static/js/main.476145cb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.185011e0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.185011e0.js.map",
+    "static/js/2.394ff360.chunk.js": "/static/js/2.394ff360.chunk.js",
+    "static/js/2.394ff360.chunk.js.map": "/static/js/2.394ff360.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.0d8401037e38c3f0ba804c90529d4981.js": "/precache-manifest.0d8401037e38c3f0ba804c90529d4981.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.258bd750.chunk.css.map": "/static/css/main.258bd750.chunk.css.map",
+    "static/js/2.394ff360.chunk.js.LICENSE.txt": "/static/js/2.394ff360.chunk.js.LICENSE.txt",
+    "static/media/common.scss": "/static/media/Nunito-SemiBold.76ae20d4.ttf",
+    "static/media/cross.svg": "/static/media/cross.e49095af.svg",
+    "static/media/dislike.svg": "/static/media/dislike.81d883b3.svg",
+    "static/media/like.svg": "/static/media/like.ea03542f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.185011e0.js",
+    "static/js/2.394ff360.chunk.js",
+    "static/css/main.258bd750.chunk.css",
+    "static/js/main.476145cb.chunk.js"
+  ]
+}

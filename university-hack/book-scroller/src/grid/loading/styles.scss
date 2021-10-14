@@ -1,0 +1,60 @@
+.loading {
+  display: flex;
+  width: 100%;
+  margin-top: -8rem;
+  height: 8rem;
+
+  .anim-box {
+    margin: auto;
+    height: 1.5rem;
+    display: flex !important;
+    align-items: center;
+
+    .circle {
+      @keyframes loading {
+        0% {
+          opacity: 1;
+          transform: scale(1);
+        }
+        50% {
+          opacity: .5;
+          transform: scale(.8);
+        }
+        100% {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+
+      @keyframes loading-center {
+        0% {
+          opacity: .5;
+          transform: scale(.8);
+        }
+        50% {
+          opacity: 1;
+          transform: scale(1);
+        }
+        100% {
+          opacity: .5;
+          transform: scale(.8);
+        }
+      }
+
+      flex: 1;
+      margin: 0 .7rem;
+      width: 1.5rem;
+      height: 1.5rem;
+      transform: scale(.8);
+      background: #222;
+      opacity: .5;
+      border-radius: 50%;
+      animation: loading-center 1s infinite;
+
+      &:first-child, &:last-child {
+        margin: 0 !important;
+        animation: loading 1s infinite;
+      }
+    }
+  }
+}
